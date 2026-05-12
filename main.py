@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
@@ -35,3 +36,15 @@ plt.title('Confusion Matrix')
 plt.show()
 
 print(classification_report(y_test,predictions))
+=======
+"""Deprecated: use `python train.py` for training. See README.md for the Streamlit app."""
+
+import sys
+
+
+if __name__ == "__main__":
+    print("This entrypoint is deprecated. Use: python train.py")
+    print("App: streamlit run app.py")
+    print("See README.md for details.")
+    sys.exit(1)
+>>>>>>> 093b318 (Changed model and added Streamlit app)
